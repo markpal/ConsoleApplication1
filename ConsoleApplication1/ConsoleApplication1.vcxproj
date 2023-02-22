@@ -145,9 +145,6 @@
     <Text Include="filename.txt" />
     <Text Include="filename2.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

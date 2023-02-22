@@ -14,7 +14,8 @@ int main()
     ifstream MyFile2("filename2.txt");
     string data; 
 
-    MyFile << "ok!!";
+    MyFile << "ok!!\n";
+    MyFile << "second!!";
 
     while (!MyFile2.eof())
     {
