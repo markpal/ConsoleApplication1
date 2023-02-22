@@ -24,7 +24,7 @@
     <Text Include="filename2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Nagłówek.h">
+    <ClInclude Include="Header.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>
