@@ -12,7 +12,7 @@ int main()
 
     ofstream MyFile("filename.txt");
     ifstream MyFile2("filename2.txt");
-    string data;
+    string data; 
 
     MyFile << "Files can be tricky, but it is fun enough!!";
 
