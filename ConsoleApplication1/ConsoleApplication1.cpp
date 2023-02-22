@@ -24,7 +24,7 @@ int main()
 
     while (!MyFile2.eof())
     {
-        //MyFile2 >> data;
+        //MyFile2 >> data;  // dzieli na spacje
         getline(MyFile2, data);
         cout << data << endl;
     }
