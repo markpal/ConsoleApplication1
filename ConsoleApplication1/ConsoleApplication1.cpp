@@ -14,11 +14,12 @@ int main()
     ifstream MyFile2("filename2.txt");
     string data; 
 
-    MyFile << "Files can be tricky, but it is fun enough!!";
+    MyFile << "ok!!";
 
     while (!MyFile2.eof())
     {
-        MyFile2 >> data;
+        //MyFile2 >> data;
+        getline(MyFile2, data);
         cout << data << endl;
     }
 

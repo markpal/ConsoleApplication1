@@ -20,8 +20,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="filename.txt" />
-    <Text Include="filename2.txt" />
+    <Text Include="filename.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="filename2.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
